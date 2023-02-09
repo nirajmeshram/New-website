@@ -7,8 +7,13 @@ use Illuminate\Http\Request;
 class UserController extends Controller
 {
     public function index(){
-        $test ="This text is from main branch";
-        $h = "Hello world";
         return "Hello world from test";
+    }
+
+    public function add(){
+        $a = 10;
+        $b = 20;
+        $sum = $a+$b;
+        echo $sum;
     }
 }
